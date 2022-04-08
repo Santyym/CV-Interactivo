@@ -1,4 +1,4 @@
 # CV-Interactivo
 CV INTERACTIVO
 
-Web: https://santyym.github.io/CV-Interactivo/
+Web: https://santyym.github.io/paginaweb3/
