@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.fondo {
+  position: absolute;
+  background-image: url("/paginaweb3/img/fondo.jpg");
+  background-position: initial;
+  margin: auto;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.sprite {
+  display: inline-block;
+  position: absolute;
+  background: url("/paginaweb3/img/personaje-sprites.png") no-repeat;
+  margin: 0 auto;
+  top: 20%;
+  left: 50%;
+  overflow: hidden;
+  width: 150px;
+  height: 410px;
+  background-position: -10px -480px;
+  animation: 0.5s steps(4) infinite;
+}
+
+@keyframes correr-izq {
+  0% {
+    background-position: -10px -10px;
+  }
+  100% {
+    background-position: -627px -10px;
+  }
+}
+
+@keyframes correr-abajo {
+  0% {
+    background-position: -10px -480px;
+  }
+  100% {
+    background-position: -627px -480px;
+  }
+}
+
+@keyframes correr-der {
+  0% {
+    background-position: -10px -945px;
+  }
+  100% {
+    background-position: -627px -945px;
+  }
+}
+
+@keyframes correr-arriba {
+  0% {
+    background-position: 4px -1400px;
+  }
+  100% {
+    background-position: -627px -1400px;
+  }
+}
